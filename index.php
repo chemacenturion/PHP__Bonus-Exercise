@@ -1,4 +1,19 @@
 <!DOCTYPE html>
+    <?php
+        $conn = new mysqli("localhost","root","","directory_db");
+
+        // write query for all customers
+        $sql = "SELECT * FROM customers ORDER BY id";
+
+        // make query and get results
+        $result = mysqli_query($conn, $sql);
+
+        // fetch the resulting rows as an array
+        $customers = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+        print_r($customers);
+    ?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,8 +22,12 @@
     <title>PHP Bonus Exercise</title>
 </head>
 <body>
-    <?php
-        echo('Hello World!')
-    ?>
+    <h1>customers</h1>
+        <div>
+            <?php foreach($customers as $customer){ ?>
+            <h5><?php echo htmlspecialchars($customer["first_name"]); ?></h5>
+        </div>
+
+        <?php } ?>
 </body>
 </html>
