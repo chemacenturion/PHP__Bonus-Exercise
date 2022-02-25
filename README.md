@@ -13,7 +13,7 @@ Input:
 	Kyle
 Output:
 	Kyle Smith Baton Rouge LA
-	Ky1e Bonehill Baton Rouge LA
+	Kyle Bonehill Baton Rouge LA
 	
 Input:
 	Ivashov
