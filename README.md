@@ -3,6 +3,8 @@
 ## GIF
 Below you will find a GIF animation of the working code. In order to see this live in the browser you would need to clone the code down yourself and set up the Apache Environment. I was tasked with XAMPP:
 
+![Site-GIF](https://github.com/chemacenturion/PHP__Bonus-Exercise/blob/main/assets/images/PHP%20Bonus%20Exercise%20(1).gif?raw=true)
+
 ## Description
 This is a bonus technical interview project I was tasked with to test if I could figure out how to connect a MySQL database with PHP running on an Apache Server and query the proper results in the browser.
 
