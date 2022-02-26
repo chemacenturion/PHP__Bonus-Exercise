@@ -4,7 +4,7 @@ My first PHP/Apache/MySQL build in progress!
 
 ![PHP Progress](https://github.com/chemacenturion/PHP__Bonus-Exercise/blob/main/assets/images/PHP%20Bonus%20Exercise.gif?raw=true)
 
-2/25/22 - Currently everything is connected in the browser, but the submit button returns all the names in the database. Need to troubleshoot my syntax to achieve the desire results listed below:
+2/25/22 - Currently everything is connected in the browser, but the submit button returns all the names in the database. Need to troubleshoot my syntax to achieve the desired results listed below:
 
 Exercise:
 Build a search page that allows a user to search by first name or last name from the mockdata.sql file and returns the intended results.
