@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav__container {
+    background-color: rgb(81, 2, 105);
+    height: 8rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    font-family: 'Pushster', cursive;
+    font-size: xx-large;
+}
+
+.container__assignment {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.container__assignment-text p {
+    padding: 2rem;
+}
+
+.container__assignment-text h2, h3
+ {
+    text-align: center;
+    font-style: italic;
+}
+
+.container__search {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.container__search-form {
+    background-color: lightgray;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 1px 1px darkgrey;
+}
+
+.container__results {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    font-size: larger;
+}
