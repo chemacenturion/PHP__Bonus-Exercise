@@ -1,7 +1,7 @@
 # PHP__Bonus-Exercise
 
 My first PHP/Apache/MySQL build in progress!
-![PHP Progress](https://github.com/chemacenturion/PHP__Bonus-Exercise/blob/main/assets/images/Screenshot%20(228).png?raw=true)
+![PHP Progress](https://github.com/chemacenturion/PHP__Bonus-Exercise/blob/main/assets/images/PHP%20Bonus%20Exercise.gif?raw=true)
 
 Next step is to build HTML search bar and use SQL commands to acquire desired data outlined in assigned task:
 
